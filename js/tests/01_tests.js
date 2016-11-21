@@ -221,7 +221,7 @@ QUnit.test("#03 Strings", function(assert) {
 
     /* repeatNTimes(s, n) */
     /*
-    Ecrire une fonction repeatNTimes qui retourne la châine de caractéres s repetée
+    Ecrire une fonction my_repeatStr qui retourne la châine de caractéres s repetée
     n fois.
      */
     myABEqual(assert, my_repeatStr, "", 5, "");
@@ -243,7 +243,7 @@ QUnit.test("#03 Strings", function(assert) {
 
     /* my_indexOf(haystack, needle) */
     /*
-    Ecrire une fonction my_indexOf qui retourne true si le caractére
+    Ecrire une fonction my_indexOf qui retourne la position de la premiére occurrence si le caractére
     needle est présent dans la châine de caractéres haystack, false autrement.
      */
     myABEqual(assert, my_indexOf, "", "", false);
